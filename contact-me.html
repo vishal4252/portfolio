@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="icon" type="image/x-icon" href="images/squarePic_20220610_09463330.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact-me.css">
+</head>
+
+<body>
+    <div class="container">
+        <form onsubmit="formSubmit()" enctype="text/plain">
+            <label for="Name">Name</label>
+            <br>
+            <input type="text" name="Name" id="" required autocomplete="off" maxlength="30">
+            <br>
+            <label for="Email">Email</label>
+            <br>
+            <input type="email" name="Email" id="" required autocomplete="off">
+            <br>
+            <label for="Mobile-no">Mobile No</label>
+            <br>
+            <input type="tel" name="Mobile-no" id="" required autocomplete="off" minlength="10" maxlength="10">
+            <br>
+            <label for="Describe">Describe your project</label>
+            <br>
+            <textarea name="describe" id="" cols="30" rows="10" required autocomplete="off"></textarea>
+            <br>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+    <script>
+        function formSubmit() {
+            alert("Thank you for contacting me. \n Your data has been submitted successfully ✔✔.");
+        }
+    </script>
+</body>
+
+</html>
