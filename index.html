@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="x-icon" href="images/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-[poppins] font-extrabold">
+    <header>
+        <nav
+            class="flex justify-between items-center w-full mx-auto px-4 sm:px-12 md:px-14 lg:px-12 xl:px-[12%] py-2 2xl:py-3">
+            <div>
+                <a href="index.html"><img class="w-12 rounded-full" src="images/logo.png" alt="img"></a>
+            </div>
+            <div
+                class="navbar md:static absolute md:h-fit h-[100vh] left-0 top-[-1000%] md:w-auto w-full flex items-center justify-center px-5 z-40">
+                <ul class="nav-list flex md:flex-row flex-col md:items-center text-center md:gap-[3vw] gap-8">
+                    <li><a class="nav-links transition-all duration-200" href="#">Home</a></li>
+                    <li><a class="nav-links transition-all duration-200" href="#about">About</a></li>
+                    <li><a class="nav-links transition-all duration-200" href="#service">Service</a></li>
+                    <li><a class="nav-links transition-all duration-200" href="#project">Project</a></li>
+                    <li><a class="nav-links transition-all duration-200" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center justify-center gap-4">
+                <div class="modes flex items-center justify-center text-3xl p-1 cursor-pointer">
+                    <ion-icon id="theme" name="moon-sharp"></ion-icon>
+                </div>
+                <ion-icon onclick="onToggleMenu(this)" class="nav-btn text-3xl p-1 cursor-pointer z-50 md:hidden"
+                    name="menu-sharp"></ion-icon>
+            </div>
+        </nav>
+    </header>
+    <main class="px-4 sm:px-12 md:px-14 lg:px-12 xl:px-[12%]">
+        <section
+            class="hero-wrapper flex items-center justify-around md:justify-between flex-wrap h-[90vh] sm:h-auto md:h-auto xl:h-[90vh] 2xl:h-auto">
+            <div class="md:max-w-[45%] h-fit w-[100%] sm:my-[10%] md:my-[13.5%] xl:my-0 2xl:my-[15%]" data-aos="zoom-in"
+                data-aos-once="false" data-aos-offset="150" data-aos-delay="20" data-aos-duration="800">
+                <p class="text-[1rem] md:text-[1.2rem] lg:text-[1.5rem]">
+                    --Hey
+                </p>
+                <h1 class="text-[2rem] md:text-[2.3rem] lg:text-[3.2rem]">
+                    I'm <span class="text-[#78C1F3]">Vishal</span>
+                </h1>
+                <h2 class="text-[2rem] md:text-[2.3rem] lg:text-[3.2rem]">
+                    Web <span class="text-[#78C1F3]">Developer</span>
+                </h2>
+                <h3 class="text-[1.5rem] mb-6 md:text-[2rem] lg:text-[2.5rem]">
+                    Passion <span class="auto-type  text-[#78C1F3]"></span>
+                </h3>
+                <div class="inline-flex items-center justify-center">
+                    <a class="top-btn-1 px-6 py-2 mr-2 transition-all duration-500 text-[18px]" href="VISHAL.pdf"
+                        target="_blank">Resume</a>
+                    <a class="top-btn-2 border px-6 py-2 transition-all duration-500 text-[18px]"
+                        href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="md:max-w-[55%]" data-aos="zoom-in" data-aos-once="false" data-aos-offset="150"
+                data-aos-delay="20" data-aos-duration="800">
+                <img class="inline-block w-[100%] sm:w-[100%] md:w-[100%] md:float-right m-auto lg:float-right"
+                    src="images/juicy-man-programmer-writing-code-and-make-web-design-on-a-pc-730x456.png" alt="image"
+                    sizes="" srcset="">
+            </div>
+        </section>
+    </main>
+    <section class="px-4 sm:px-12 md:px-14 lg:px-12 xl:px-[12%]" id="about">
+        <div class="flex items-center justify-center flex-wrap mb-5">
+            <div class="inline-block w-[100%] md:w-[50%] order-2 md:order-1" data-aos="zoom-in" data-aos-once="false"
+                data-aos-offset="150" data-aos-delay="20" data-aos-duration="800">
+                <img class="mx-auto lg:mx-0"
+                    src="images/bubble-gum-man-sits-at-a-computer-and-participates-in-an-online-meeting-2500x2500.png"
+                    alt="image" srcset="" width="530px">
+            </div>
+            <div class="inline-flex items-center justify-center flex-col w-[100%] md:w-[50%] order-1 md:order-2"
+                data-aos="zoom-in" data-aos-once="false" data-aos-offset="150" data-aos-delay="20"
+                data-aos-duration="800">
+                <h3 class="text-[2rem] sm:text-[2.5rem] mb-5">About <span class="text-[#78C1F3]">Me</span></h3>
+                <p class="text-[1rem] leading-relaxed text-justify">
+                    Hey, There I'm Vishal a Front End Web <span class="text-[#78C1F3]">
+                        < / </span>Developer <span class="text-[#78C1F3]">
+                                > </span> and Passionate About Coding and Web Designing. I have 1.5 Years of Experience
+                            in Web Development. Day by Day I'm Enhansing my Skills to make it more better then previous.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="px-4 sm:px-12 md:px-14 lg:px-12 xl:px-[12%]" id="service">
+        <div class="flex items-center justify-center flex-wrap mt-5">
+            <div class="inline-flex items-center justify-center flex-col w-[100%] md:w-[50%]" data-aos="zoom-in"
+                data-aos-once="false" data-aos-offset="150" data-aos-delay="20" data-aos-duration="800">
+                <h3 class="text-[2rem] sm:text-[2.5rem] mb-5">Our <span class="text-[#78C1F3]">Services</span></h3>
+                <ul class="text-[1rem]">
+                    <li>▶ Responsive Web Designing</li>
+                    <li>▶ UI & UX</li>
+                    <li>▶ Seo (Search Engine Optimization)</li>
+                </ul>
+            </div>
+            <div class="inline-block w-[100%] md:w-[50%]" data-aos="zoom-in" data-aos-once="false" data-aos-offset="150"
+                data-aos-delay="20" data-aos-duration="800">
+                <img class="mx-auto lg:mx-0" src="images/juicy-seo-website-optimization-584x456.png" alt="image"
+                    srcset="">
+            </div>
+        </div>
+    </section>
+    <section class="px-4 sm:px-12 md:px-14 lg:px-12 xl:px-[12%]">
+        <div class="flex items-center justify-center flex-wrap my-10">
+            <div class="inline-block w-[100%] md:w-[50%] order-2 md:order-1" data-aos="zoom-in" data-aos-once="false"
+                data-aos-offset="150" data-aos-delay="20" data-aos-duration="800">
+                <img class="mx-auto lg:mx-0 p-5 sm:p-0" src="images/marginalia-programming.png" alt="image" srcset="">
+            </div>
+            <div class="inline-flex items-center justify-center flex-col w-[100%] md:w-[50%] order-1 md:order-2"
+                data-aos="zoom-in" data-aos-once="false" data-aos-offset="150" data-aos-delay="20"
+                data-aos-duration="800">
+                <h3 class="text-[2rem] sm:text-[2.5rem] mb-5">Skill <span class="text-[#78C1F3]">Section</span></h3>
+                <p class="text-[1rem] p-4 leading-relaxed text-justify">
+                    I have made this Portfolio and project on the basis of these skills that I have learnt.
+                </p>
+                <div class="inline-flex flex-row flex-wrap">
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1" />
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3" />
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/tailwindcss.png"
+                        alt="tailwindcss" />
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/bootstrap.png" alt="bootstrap" />
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png"
+                        alt="javascript--v1" />
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/github--v1.png" alt="github--v1" />
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/git.png" alt="git" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="px-4 sm:px-12 md:px-14 lg:px-12 xl:px-[12%]" id="project">
+        <div class="flex items-center justify-center flex-wrap">
+            <div data-aos="zoom-in" data-aos-once="false" data-aos-offset="150" data-aos-delay="20"
+                data-aos-duration="800">
+                <h3 class="text-[2rem] sm:text-[2.5rem] my-10 md:my-28">Project <span
+                        class="text-[#78C1F3]">Section</span></h3>
+            </div>
+            <div class="flex items-center justify-center flex-wrap gap-4 md:gap-4 lg:gap-2 xl:gap-6 mb-10 md:mb-16">
+                <!-- Study Hard -->
+                <div class="pg-img" data-aos="zoom-in" data-aos-once="false" data-aos-offset="150" data-aos-delay="20"
+                    data-aos-duration="800"><img
+                        class="w-[290px] h-[180px] lg:w-[330px] 2xl:w-[400px] lg:h-[200px] 2xl:h-[230px] border border-black"
+                        src="images/pg-1.jpg" alt="image" srcset="">
+                    <a href="https://vishal4252.github.io/studyhard/" class="pg-info">
+                        <p>Study Hard <span><ion-icon name="arrow-redo-sharp"></ion-icon></span></p>
+                    </a>
+                </div>
+                <div class="pg-img" data-aos="zoom-in" data-aos-once="false" data-aos-offset="150" data-aos-delay="20"
+                    data-aos-duration="800"><img
+                        class="w-[290px] h-[180px] lg:w-[330px] 2xl:w-[400px] lg:h-[200px] 2xl:h-[230px] border border-black"
+                        src="images/pg-2.jpg" alt="image" srcset="">
+                    <a href="https://vishal4252.github.io/studyhard/" class="pg-info">
+                        <p>Study Hard <span><ion-icon name="arrow-redo-sharp"></ion-icon></span></p>
+                    </a>
+                </div>
+                <!-- Netflix Clone -->
+                <div class="pg-img" data-aos="zoom-in" data-aos-once="false" data-aos-offset="150" data-aos-delay="20"
+                    data-aos-duration="800"><img
+                        class="w-[290px] h-[180px] lg:w-[330px] 2xl:w-[400px] lg:h-[200px] 2xl:h-[230px] border border-black"
+                        src="images/pg-3.png" alt="image" srcset="">
+                    <a href="https://vishal4252.github.io/studyhard/" class="pg-info">
+                        <p>Netflix Clone <span><ion-icon name="arrow-redo-sharp"></ion-icon></span></p>
+                    </a>
+                </div>
+                <div class="pg-img" data-aos="zoom-in" data-aos-once="false" data-aos-offset="150" data-aos-delay="20"
+                    data-aos-duration="800"><img
+                        class="w-[290px] h-[180px] lg:w-[330px] 2xl:w-[400px] lg:h-[200px] 2xl:h-[230px] border border-black"
+                        src="images/pg-4.png" alt="image" srcset="">
+                    <a href="https://vishal4252.github.io/studyhard/" class="pg-info">
+                        <p>Netflix Clone <span><ion-icon name="arrow-redo-sharp"></ion-icon></span></p>
+                    </a>
+                </div>
+                <!-- IPU Notes -->
+                <div class="pg-img" data-aos="zoom-in" data-aos-once="false" data-aos-offset="150" data-aos-delay="20"
+                    data-aos-duration="800"><img
+                        class="w-[290px] h-[180px] lg:w-[330px] 2xl:w-[400px] lg:h-[200px] 2xl:h-[230px] border border-black"
+                        src="images/pg-5.png" alt="image" srcset="">
+                    <a href="https://vishal4252.github.io/ipunotes/" class="pg-info">
+                        <p>IPU Notes <span><ion-icon name="arrow-redo-sharp"></ion-icon></span></p>
+                    </a>
+                </div>
+                <div class="pg-img" data-aos="zoom-in" data-aos-once="false" data-aos-offset="150" data-aos-delay="20"
+                    data-aos-duration="800"><img
+                        class="w-[290px] h-[180px] lg:w-[330px] 2xl:w-[400px] lg:h-[200px] 2xl:h-[230px] border border-black"
+                        src="images/pg-6.png" alt="image" srcset="">
+                    <a href="https://vishal4252.github.io/ipunotes/" class="pg-info">
+                        <p>IPU Notes <span><ion-icon name="arrow-redo-sharp"></ion-icon></span></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="px-4 sm:px-12 md:px-14 lg:px-12 xl:px-[12%]" id="project">
+        <section class="flex items-center justify-center flex-col my-5">
+            <div data-aos="zoom-in" data-aos-once="false" data-aos-offset="50" data-aos-delay="20"
+                data-aos-duration="800">
+                <h4 class="text-[1.4rem]">
+                    Connect <span class="text-[#78C1F3]">With Me</span>
+                </h4>
+            </div>
+            <div class="inline-flex flex-row" data-aos="zoom-in" data-aos-once="false" data-aos-offset="50"
+                data-aos-delay="20" data-aos-duration="800">
+                <a href="https://github.com/vishal4252"><img class="border border-black p-1.5 m-3" width="35"
+                        height="35" src="https://img.icons8.com/windows/50/github.png" alt="github" /></a>
+                <a href="https://replit.com/@vishal4252"><img class="border border-black p-1.5 m-3" width="35"
+                        height="35" src="https://img.icons8.com/color/50/000000/replit.png" alt="replit" /></a>
+                <a href="https://www.linkedin.com/in/vishal1312/"><img class="border border-black p-1.5 m-3" width="35"
+                        height="35" src="https://img.icons8.com/color/50/linkedin.png" alt="linkedin" /></a>
+                <a href="https://twitter.com/vp04188"><img class="border border-black p-1.5 m-3" width="35" height="35"
+                        src="https://img.icons8.com/color/35/twitterx.png" alt="twitterx" /></a>
+            </div>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            duration = 500
+        );
+    </script>
+</body>
+
+</html>
