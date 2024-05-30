@@ -58,6 +58,10 @@ body {
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .navbar {
     background-color: var(--pp-bg);
 }
