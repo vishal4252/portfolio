@@ -20,11 +20,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.custom-crsr {
-    transition: all ease 1s linear;
-    mix-blend-mode: difference;
-}
-
 .marquee h3:nth-child(odd) {
     -webkit-text-stroke: 0.5px #fff;
     color: transparent;
